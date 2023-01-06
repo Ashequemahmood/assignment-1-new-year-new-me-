@@ -4,81 +4,97 @@
     font-family: font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
 .baner{
     background-image: url("../images/banner/banner3.png");
     background-size: cover;
     background-repeat: no-repeat;
     
-}
-.baner-text{
-    color: #FFFFFF;
-    font-family: font-family: 'Open Sans', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 216px 364px 212px 860px;
     text-align: right;
-}
-.baner-details{
-   
+    width: 1600px;
+        height: 808px;
+        left: -36px;
+        top: 0px;
     
-}
-.baner-button{
-    margin-top: 32px;
-    background-color: white;
-    padding: 10px 10px;
-    border-radius: 2px;
-}
-.my-details{
-    
-    color: #151414;
-    width: 1000px;
-    height: 720px;
-    
-    display: flex;
-}
-.my-failure{
-    
-    width: 416px;
-    height: 400px;
-    left: 844px;
-    top: 1178px;
-}
-.my-failure-details{
-    padding-top: 24px;
-}
-.my-failure-list{
-    list-style:georgian ;
-    padding-top: 16px;
-}
-.section-2{
     
     
 }
-.title{
-    text-align: center;
-    font-size: 34px;
+.baner-title{
+    font-weight: 700;
+        font-size: 65px;
+    
     
 
 }
-.my-plans{
-    display: flex;
-    gap: 77px;
-    justify-content: center;
+
+
+.contact-us{
     
+    margin-top: 32px;
+    margin-bottom: 166px;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 2px;
    
 }
-.my-plan-title{
-    font-size: 26px;
-    font-weight: bold;
+.my-details{
+    display: flex;
+  
+    padding: 200px 200px 200px 200px;
+    width: 1054px;
+        height: 723.3px;
+        left: 206px;
+        top: 939px;
+    
+    
 }
+.my-failure{
+    
+    
+}
+.my-failure-details{
+    
+}
+.my-failure-list{
+    
+}
+
+.my-plans-title{
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.my-plans{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    padding: 20px 20px 20px 230px;
+    
+    
+    text-align: center;
+   
+    width: 1114px;
+        height: 202.96px;
+        left: 230px;
+        top: 1889px;
+    
+}
+
 
 .call-now{
     
     background-image: url("../images/watch.png");
-    background-repeat: no-repeat; 
     background-size: cover;
-    padding: 216px 364px 212px 860px;
+    background-repeat: no-repeat;
+    margin: 200px 200px 200px 200px;
+    width: 1140px;
+        height: 300px;
+        left: 230px;
+        top: 2221.96px;
+
+    
+    
 
 }
 .call-now-button{
@@ -90,13 +106,23 @@
 .footer{
     
     display: flex;
-    gap: 307px;
+   
     background: #151414;
-    padding: 216px 364px 212px 860px;
+    width: 1600px;
+        height: 577px;
+        left: 0px;
+        top: 2651.96px;
+    
     
     
 }
 .future{
     color: white;
+    padding: 130px 307px 130px 230px;
+    font-weight: 400;
+        font-size: 16px;
     
+}
+.subscribe{
+    padding: 130px 253px 243px 307px ;
 }
