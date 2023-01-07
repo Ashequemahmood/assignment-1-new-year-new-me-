@@ -1,62 +1,93 @@
 *{
     margin: 0px;
-    border: 0px;
+    padding: 0px;;
     font-family: font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
 
+.items{
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    gap: 60px;
+    background-color: rgb(11, 11, 11);
+    color: white;
+}
+.item{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.baner-container{
+    display: flex;
+    text-align: right;
+}
+
 .baner{
+    width: 100%;
+    height: 808px;
     background-image: url("../images/banner/banner3.png");
     background-size: cover;
     background-repeat: no-repeat;
-    
-    text-align: right;
-    width: 1600px;
-        height: 808px;
-        left: -36px;
-        top: 0px;
-    
-    
-    
+    color: white;
+    padding-top: 216px;
+    padding-right: 216px;
+    padding-left: 864px;
 }
 .baner-title{
     font-weight: 700;
-        font-size: 65px;
+    font-size: 65px;
     
-    
-
 }
-
-
+.baner-details{
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 894px;
+    margin-top: 20px;
+}
 .contact-us{
-    
     margin-top: 32px;
     margin-bottom: 166px;
     background-color: white;
     padding: 10px 10px;
     border-radius: 2px;
-   
 }
-.my-details{
+/* My Failures  */
+.my-failures-container{
     display: flex;
-  
-    padding: 200px 200px 200px 200px;
-    width: 1054px;
-        height: 723.3px;
-        left: 206px;
-        top: 939px;
-    
-    
+    gap: 90px;
+    max-width: 1054px;
+    margin: 200px auto;
 }
 .my-failure{
-    
-    
+    margin-top: 200px;
+}
+
+
+.my-failure-title{
+    font-weight: 700;
+    font-size: 40px;
 }
 .my-failure-details{
-    
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
 }
 .my-failure-list{
+    font-weight: 400;
+    font-size: 14x;
+    margin-top: 24px;
+}
+
+/*  My plans  */
+
+.my-plans-container{
+    max-width: 1114px;
+    margin: 0px auto;
     
+
 }
 
 .my-plans-title{
@@ -68,61 +99,84 @@
 .my-plans{
     display: flex;
     gap: 60px;
-    justify-content: center;
-    padding: 20px 20px 20px 230px;
-    
-    
-    text-align: center;
-   
-    width: 1114px;
-        height: 202.96px;
-        left: 230px;
-        top: 1889px;
-    
+    justify-content: space-between;
 }
 
-
-.call-now{
-    
+/*  Watch banner */
+.watch-baner-container{
     background-image: url("../images/watch.png");
-    background-size: cover;
     background-repeat: no-repeat;
-    margin: 200px 200px 200px 200px;
-    width: 1140px;
-        height: 300px;
-        left: 230px;
-        top: 2221.96px;
-
+    width: 100%;
+    height: 100vh;
+    margin-top: 130px;
+    margin-left: 850px;
+    margin-bottom: -90px;
     
     
-
+}
+.watch-baner-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-left: 64px;
+   
 }
 .call-now-button{
-    
-    background-color: white;
-    color: blue;
+    margin-left: 64px;
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    padding: 20px;
     border-radius: 5px;
+    background-color: white;
 }
-.footer{
-    
+
+/* Footer  */
+
+.footer-container{
     display: flex;
-   
-    background: #151414;
-    width: 1600px;
-        height: 577px;
-        left: 0px;
-        top: 2651.96px;
-    
-    
-    
-}
-.future{
+    gap: 300px;
+    width: 100%;
+    height: 577px;
+    background-color: black;
     color: white;
-    padding: 130px 307px 130px 230px;
+}
+
+.future {
     font-weight: 400;
-        font-size: 16px;
-    
+    font-size: 16px;
+    width: 485px;
+    margin-left: 200px;
+
 }
+.future-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 150px;
+    margin-bottom: 16px;
+
+}
+
 .subscribe{
-    padding: 130px 253px 243px 307px ;
+    text-align: right;
+    margin-top: 130px;
+    margin-left: 1022px;
+    font-size: 30px;
 }
+.sub{
+    margin-bottom: 15px;
+
+}
+.btn{
+    margin-top: 15px;
+    background-color: #005FAC;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+
